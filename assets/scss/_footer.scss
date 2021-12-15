@@ -1,0 +1,38 @@
+footer {
+    background-color: $colorUno;
+    width: 100%;
+}
+
+.container-footer {
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    background-color: $colorUno;
+}
+
+.menu-footer ul li {
+    margin-top: 16px;
+}
+
+.menu-footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: initial;
+    color:azure; 
+    font-family: $fontContenido;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.iconos {
+    padding: 0 2%;
+}
+
+.iconos-social {
+    color: azure;
+    font-size: 32px;
+    text-decoration: none;
+}

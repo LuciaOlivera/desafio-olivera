@@ -1,0 +1,105 @@
+.hero-home  {
+    height: 100vh;
+    background-image: url("../imagenes/home/banner-home.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 100px;
+    }
+    
+    .titulo-home,
+    .titulo-home-clientes    {
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    h1,
+    .titulo,
+    .home {
+        font-family: $fontTitulo;
+        font-size: $sizeTitulos;
+        font-weight: 600;
+    }
+    
+    .bajada-home {
+        font-family: $fontTitulo;
+        font-size: 3rem;
+        margin-bottom: 5%;
+    
+    }
+    
+    .boton {
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        padding: 0.5% 2%;
+        border: 4px solid $colorUno;
+        border-radius: 50px;
+        background-color: $colorUno;
+        color: $colorTres;
+        text-decoration: none;
+        margin-left: 10%;
+        margin-top: 10%;
+        &:hover {
+            background-color: $colorTres;
+            color: $colorUno;
+        }
+    }
+
+    .hero-home-nosotros {
+        height: 100vh;
+        background-image: url("../imagenes/nosotros/hero-nosotros.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 100px;
+      }
+      
+      .hero-home-servicios {
+        height: 100vh;
+        background-image: url("../imagenes/servicios/hero-servicios.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 100px;
+      }
+
+      .titulo-home-clientes {
+        text-align: center;
+        align-items: center;
+        padding-top: 5rem;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .boton-clientes {
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+        border: 0.5rem solid $colorUno;
+        border-radius: 50px;
+        background-color: $colorUno;
+        color: $colorTres;
+        text-decoration: none;
+        padding: 0.5% 1%;
+        margin: 2% 42%;
+             &:hover {
+            background-color: $colorTres;
+            color: $colorUno;
+        }
+    }
+    
+    .hero-home-clientes {
+        height: 100vh;
+        background-image: url("../imagenes/clientes/banner-clientes.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 100px; 
+        }
+
+        

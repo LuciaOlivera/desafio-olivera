@@ -1,0 +1,134 @@
+@import "mixin";
+
+.columna-derecha {
+    margin-left: 5%;
+}
+
+.titulos-textos {
+    margin-bottom: 10%;
+    font-weight: 600;
+    @include contenido-typo;
+}
+
+.parrafo-home-uno {
+    font-size: $sizeContenido;
+    font-family: $fontContenido;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.icono-home {
+    align-items: center;
+    text-align: center;
+}
+
+.row,
+.parrafo-uno-icono {
+    margin-bottom: 5%;
+}
+
+.destacado {
+    background-color: $colorDos;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.p-destacado {
+    font-weight: 600;
+    color:azure;
+    @include contenido-typo;
+}
+
+
+
+
+ .titulos-secciones {
+     font-family: $fontTitulo;
+     font-size: 2.5rem;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 10%;
+ }
+
+
+.margin-home-subtitulo {
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.materiales {
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.materiales-dos {
+
+    align-items: center;
+    text-align: center;
+}
+
+.bg-nosotros {
+    background-image: url("../imagenes/nosotros/nosotros-textura.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+  }
+
+  .nuestros-valores {
+    margin-top: 15%;
+  }
+  
+  .margenes-servicios,
+  .margenes-input {
+    margin-bottom: 10%;
+  }
+  
+  .boton-clientes-secundario {
+
+    font-family: 'Lato', sans-serif;
+    border: 0.2rem solid $colorDos;
+    border-radius: 50px;
+
+    color: $colorDos;
+    text-decoration: none;
+    padding: 0.5% 1%;
+
+    &:hover {
+        border: 0.2rem solid $colorTres;
+        color: $colorDos;
+    }
+
+}
+
+.padding-clientes {
+    padding-bottom: 2%;
+}
+
+.parrafo-clientes-uno {
+    font-size: $fontContenido;
+    font-family:$fontContenido;
+    margin-bottom: 2rem;
+}
+
+.boton-clientes-secundario {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #005A66;
+    padding: 0.5% 2%;
+    border: 4px solid $colorUno;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.margin-clientes {
+margin-bottom: 3rem;
+}
+
+.card-text-clientes{
+font-style: italic;
+}
+
+.card-body-clientes {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}

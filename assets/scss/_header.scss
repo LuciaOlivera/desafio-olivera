@@ -1,0 +1,10 @@
+@import "listas";
+
+.miza-color {
+    background-color: nth($colores , 2 );
+}
+
+.miza-color-menu {
+    font-family: nth($typo, 2);
+    color: nth($colores , 3 );
+}
