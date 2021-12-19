@@ -8,6 +8,11 @@
     margin-bottom: 10%;
     font-weight: 600;
     @include contenido-typo;
+    @media screen and (max-width: 576px) {
+    text-align: center;            
+            
+            
+    }
 }
 
 .parrafo-home-uno {
@@ -15,6 +20,9 @@
     font-family: $fontContenido;
     margin-bottom: 2rem;
     margin-left: 2rem;
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
 }
 
 .icono-home {
@@ -31,6 +39,9 @@
     background-color: $colorDos;
     padding: 5%;
     border-radius: 10px;
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
 }
 
 .p-destacado {
@@ -69,6 +80,7 @@
 }
 
 
+/*NOSOTROS*/
 .bg-nosotros {
     background-image: url("../imagenes/nosotros/nosotros-textura.png");
     background-repeat: no-repeat;
@@ -80,6 +92,7 @@
     margin-top: 15%;
   }
   
+  /*SERVICIOS*/
   .margenes-servicios,
   .margenes-input {
     margin-bottom: 10%;
@@ -107,6 +120,8 @@
 
 }
 
+
+/*CLIENTES*/
 .padding-clientes {
     padding-bottom: 2%;
 }
