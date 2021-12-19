@@ -1,4 +1,3 @@
-/*MENU*/
 .miza-color {
   background-color: #669BB2;
 }
@@ -8,7 +7,6 @@
   color: #B2D3D8;
 }
 
-/*HERO HOME*/
 .hero-home {
   height: 100vh;
   background-image: url("../imagenes/home/banner-home.png");
@@ -191,6 +189,11 @@ h1,
 .margenes-servicios,
 .margenes-input {
   margin-bottom: 10%;
+}
+
+.bg-servicios {
+  background-color: #B2D3D8;
+  border-radius: 16px;
 }
 
 .boton-clientes-secundario {
