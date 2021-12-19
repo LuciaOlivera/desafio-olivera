@@ -1,3 +1,4 @@
+/*MENU*/
 .miza-color {
   background-color: #669BB2;
 }
@@ -7,6 +8,7 @@
   color: #B2D3D8;
 }
 
+/*HERO HOME*/
 .hero-home {
   height: 100vh;
   background-image: url("../imagenes/home/banner-home.png");
